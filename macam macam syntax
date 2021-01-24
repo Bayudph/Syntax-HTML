@@ -1,0 +1,50 @@
+HTMML is the universal markup language for the Web. 
+HTML lets you format text, add graphics, create links, input forms, frames and tables, etc., and save it all in a text file that any browser can read and display.
+
+<!DOCTYPE html>
+<html>
+<body>//put your text here </body>
+</html>
+
+PHP
+
+<?php
+//put your code here
+?>
+
+href - untuk hypertex referrence ( atau hyperlink)
+<a href="www.bayudph.org"> klik disini</a>
+
+paragraph - untuk membuat paragraph
+<p>//put your text here</p>
+<p title="put your text here">//put your text here</p>
+
+button - untuk membuat ikon tombol
+<button>//klik disini</button>
+
+image - untuk mengambil gambar dari server/url
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+alt - untuk info alternatif biasanya untuk atribut image
+<img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+
+heading - header paragraf
+<h>put your text here</h>
+<h1>put your text here</h1> semakin besar angka heading semakin kecil fontnya
+
+list - membuat daftar
+<ul><li>Coffee</li>  <li>Tea</li><li>Milk</li></ul> - unordered
+<ol><li>Coffee</li>  <li>Tea</li><li>Milk</li></ol> - ordered
+
+ Atribut tanpa tanda petik tidak bisa bekerja
+ <p title=About W3Schools> You cannot omit quotes around an attribute value if the value contains spaces. </p>
+ 
+ garis horizontal seapanjang layar : <hr>
+ 
+ breaks atau spasi kebawah : <br>
+ 
+ pre tag untuk mengatur spasi & breaks : <pre> </pre>
+ 
+ HTML warna, font, align & style perhatikan titik koma : <p style="color:blue; text-align:center;font-size:50px;">I am big</p>
+ 
+ mengatur backgorund colour : <body style="background-color:powderblue;"> </body>
